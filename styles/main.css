@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: pink;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid white;
+    
+}
+
+/* style header*/
+header {
+    padding: 1.5em 0 2em 0;
+}
+
+header h2 {
+    font-size: 200%;
+    color: black;
+}
+
+header h3 {
+font-size: 155%;
+font-style: italic;
+}
+
+header img {
+    float: left;
+    padding: 0 30px;
+}
+
+/*h1 {
+    font-size: 150%;
+    margin: 0;
+    padding-top: .5em;
+    padding-bottom: .25em;
+}
+*/
+
+/*section style*/
+
+section {
+    width: 525px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+section h2 {
+    color: red;
+    font-weight: bold;
+}
+
+/*article style*/
+
+article {
+    padding: .5em 0;
+}
+
+article h3 {
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+
+article h2 {
+    padding-top: 0;
+}
+
