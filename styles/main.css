@@ -3,8 +3,12 @@
     padding: 0;
 }
 
+header {
+    border-bottom: 3px solid white;
+}
+
 html {
-    background-color: pink;
+    background-color: gray;
 }
 
 body {
@@ -13,14 +17,14 @@ body {
     width: 800px;
     margin: 0 auto;
     border: 3px solid white;
-    
+    background-color: pink;
 }
 
 /* style header*/
 header {
     padding: 1.5em 0 2em 0;
+    background-image: linear-gradient(to right, pink , gray);
 }
-
 header h2 {
     font-size: 200%;
     color: black;
@@ -35,14 +39,6 @@ header img {
     float: left;
     padding: 0 30px;
 }
-
-/*h1 {
-    font-size: 150%;
-    margin: 0;
-    padding-top: .5em;
-    padding-bottom: .25em;
-}
-*/
 
 /*section style*/
 
@@ -59,18 +55,79 @@ section h2 {
     font-weight: bold;
 }
 
+section h3 {
+    color: red;
+}
+
 /*article style*/
 
 article {
     padding: .5em 0;
 }
 
-article h3 {
-    font-size: 105%;
-    padding-bottom: .25em;
-}
+
 
 article h2 {
     padding-top: 0;
 }
 
+article img {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    border: 3px solid gray;
+}
+
+/*aside*/
+
+aside {
+float: right;
+padding-top: 20px;
+}
+
+aside h4 {
+    color: red;
+}
+
+
+
+footer {
+    clear: both;
+    background-image: linear-gradient(to right, gray , pink);
+    text-align: center;
+    padding: 1em 0;
+}
+
+/*nav*/
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#navbar ul li {
+	float: left;
+}
+#navbar ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 1em 1.2em;
+    text-decoration: none;
+    background-color: gray;
+    color: pink;
+    font-weight: bold;
+    
+}
+#navbar a.current {
+	color: black;
+}
+#navbar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#navbar ul ul li {
+	float: none;
+}
